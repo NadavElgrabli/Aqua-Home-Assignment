@@ -51,7 +51,7 @@ This page allows you to interact with the API directly, make requests, and test 
 
 #### API Endpoints:
 ##### POST /users
-Description: Adds a new user.
+```Description: Adds a new user.
 Request body (JSON):
 {
 "ID": "316082791",
@@ -62,20 +62,20 @@ Request body (JSON):
 Response:
 200 OK: User successfully added.
 400 Bad Request: If the Israeli ID or phone number is invalid or already in use.
-
+```
 ##### GET /users
-Description: Gets a list of all user names.
+```Description: Gets a list of all user names.
 Response (JSON):
 {
 "users": ["Rachel Green", "Ross Geller", "Monica Geller", "Chandler Bing", "Joey Tribbiani", "Phoebe Buffay"]
 }
-
+```
 ##### GET /users/{name}
-Description: Get a user by their name.
+```Description: Get a user by their name.
 Response:
 200 OK: Returns user details if found.
 404 Not Found: If the user with that name is not found.
-
+```
 ## Running Tests
 To run the tests for this project, execute the following command in the project directory:
 python -m pytest backend/test_main.py
