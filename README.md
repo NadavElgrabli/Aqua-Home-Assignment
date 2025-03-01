@@ -53,12 +53,12 @@ This page allows you to interact with the API directly, make requests, and test 
 ##### POST /users
 Description: Adds a new user.
 Request body (JSON):
-{
+```{
 "ID": "316082791",
 "PhoneNumber": "0544340611",
 "Name": "Nadav Erez Elgrabli",
 "Address": "Tel Aviv"
-}
+}```
 Response:
 200 OK: User successfully added.
 400 Bad Request: If the Israeli ID or phone number is invalid or already in use.
@@ -66,9 +66,9 @@ Response:
 ##### GET /users
 Description: Gets a list of all user names.
 Response (JSON):
-{
+```{
 "users": ["Rachel Green", "Ross Geller", "Monica Geller", "Chandler Bing", "Joey Tribbiani", "Phoebe Buffay"]
-}
+}```
 
 ##### GET /users/{name}
 Description: Get a user by their name.
