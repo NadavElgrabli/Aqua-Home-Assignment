@@ -84,7 +84,7 @@ This will run all the tests in the test_main.py file.
 
 ## Project Structure
 The project is organized as follows:
-Aqua-Home-Assignment/
+```Aqua-Home-Assignment/
 │
 ├── backend/
 │   ├── main.py           # FastAPI app and routes
@@ -96,3 +96,4 @@ Aqua-Home-Assignment/
 ├── requirements.txt      # Dependencies file (optional, for production environments)
 ├── users.json            # File to persist user data (optional)
 └── README.md             # This file
+```
