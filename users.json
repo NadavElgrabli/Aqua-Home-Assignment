@@ -1,0 +1,38 @@
+[
+    {
+        "ID": "207580945",
+        "PhoneNumber": "0549871234",
+        "Name": "Rachel Green",
+        "Address": "22 Fashion St, Herzliya"
+    },
+    {
+        "ID": "207237421",
+        "PhoneNumber": "0536543210",
+        "Name": "Ross Geller",
+        "Address": "78 Paleontology Rd, Jerusalem"
+    },
+    {
+        "ID": "054053343",
+        "PhoneNumber": "0503219876",
+        "Name": "Monica Geller",
+        "Address": "3 Chef Ave, Tel Aviv"
+    },
+    {
+        "ID": "050012343",
+        "PhoneNumber": "0557894561",
+        "Name": "Chandler Bing",
+        "Address": "5 Sarcasm St, Ramat Gan"
+    },
+    {
+        "ID": "307921270",
+        "PhoneNumber": "+972532583691",
+        "Name": "Joey Tribbiani",
+        "Address": "10 Acting Blvd, Holon"
+    },
+    {
+        "ID": "208565705",
+        "PhoneNumber": "+972541472583",
+        "Name": "Phoebe Buffay",
+        "Address": "14 Guitar Ln, Netanya"
+    }
+]
