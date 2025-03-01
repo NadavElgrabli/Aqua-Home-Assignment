@@ -50,7 +50,7 @@ http://127.0.0.1:8000/docs
 This page allows you to interact with the API directly, make requests, and test the endpoints.
 
 #### API Endpoints:
-POST /users
+##### POST /users
 Description: Adds a new user.
 Request body (JSON):
 {
@@ -63,14 +63,14 @@ Response:
 200 OK: User successfully added.
 400 Bad Request: If the Israeli ID or phone number is invalid or already in use.
 
-GET /users
+##### GET /users
 Description: Gets a list of all user names.
 Response (JSON):
 {
 "users": ["Rachel Green", "Ross Geller", "Monica Geller", "Chandler Bing", "Joey Tribbiani", "Phoebe Buffay"]
 }
 
-GET /users/{name}
+##### GET /users/{name}
 Description: Get a user by their name.
 Response:
 200 OK: Returns user details if found.
