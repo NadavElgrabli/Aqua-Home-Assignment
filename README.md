@@ -32,7 +32,7 @@ source venv/bin/activate
 4. Install the required dependencies:
 
 Run the following command to install FastAPI, Uvicorn, Pydantic, and pytest (optional for testing):
-pip install fastapi uvicorn pydantic pytest
+pip install -r requirements.txt
 
 ## Running the Application on Linux
 
@@ -77,14 +77,10 @@ Response:
 404 Not Found: If the user with that name is not found.
 
 ## Running Tests
-To run the tests for this project, follow these steps:
+To run the tests for this project, execute the following command in the project directory:
+python -m pytest backend/test_main.py
 
-1. Install the test dependencies (if not already installed):
-   pip install pytest
-
-2. Run the tests: to run the tests, execute the following command in the project directory:
-   python -m pytest backend/test_main.py
-   This will run all the tests in the test_main.py file.
+This will run all the tests in the test_main.py file.
 
 ## Project Structure
 The project is organized as follows:
